@@ -129,3 +129,119 @@
     color: greenyellow;
     font-weight: bold; 
   }
+
+  /* Home Styles */
+
+.home .main-sec .left .txt {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.home .left .txt p {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  text-align: center; 
+}
+
+.home .left .txt h4 {
+  color: rgb(153, 147, 147);
+  font-size: 1.5rem; 
+  font-weight: 400; 
+}
+
+.home .left .txt .btn {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center; 
+}
+
+.bn45 {
+  width: 170px;
+  height: 50px;
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.bn46 {
+  width: 150px;
+  height: 50px;
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.home .left {
+  width: 46vw;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.home .right {
+  width: 46vw;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Pay Section Styles */
+
+.pay-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  height: 350px;
+  background-color: whitesmoke;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.pay-sec .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 20px; 
+}
+
+.pay-sec .main-box {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.pay-sec .main-box .box {
+  background: white;
+  border-radius: 10px;
+  width: 257px;
+  height: 200px;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: transform 0.2s ease; 
+}
+
+.pay-sec .main-box .box:hover {
+  transform: scale(1.1); 
+}
+
